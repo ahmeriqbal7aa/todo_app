@@ -109,11 +109,14 @@ class _TodoAppUIState extends State<TodoAppUI> {
                             addTodo();
                           }
                         },
-                        color: Colors.purple,
+                        color: Colors.amber,
                         child: Text(
                           'ADD',
-                          style:
-                              TextStyle(fontSize: 18.0, fontFamily: 'Raleway'),
+                          style: TextStyle(
+                            fontSize: 18.0,
+                            fontFamily: 'Raleway',
+                            color: Colors.black,
+                          ),
                         ),
                       )
                     ],
@@ -159,9 +162,9 @@ class _TodoAppUIState extends State<TodoAppUI> {
             return Scaffold(
               backgroundColor: Colors.black,
               floatingActionButton: FloatingActionButton(
-                backgroundColor: Colors.purple,
+                backgroundColor: Colors.amber,
                 onPressed: showAlertDialog,
-                child: Icon(Icons.add, color: Colors.white),
+                child: Icon(Icons.add, color: Colors.black),
               ),
               appBar: AppBar(
                 centerTitle: true,
@@ -182,9 +185,9 @@ class _TodoAppUIState extends State<TodoAppUI> {
             return Scaffold(
               backgroundColor: Colors.black,
               floatingActionButton: FloatingActionButton(
-                backgroundColor: Colors.purple,
+                backgroundColor: Colors.amber,
                 onPressed: showAlertDialog,
-                child: Icon(Icons.add, color: Colors.white),
+                child: Icon(Icons.add, color: Colors.black),
               ),
               appBar: AppBar(
                 centerTitle: true,

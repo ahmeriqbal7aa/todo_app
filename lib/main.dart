@@ -13,7 +13,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark().copyWith(accentColor: Colors.purple),
+      theme: ThemeData.dark().copyWith(accentColor: Colors.amber),
       home: TodoAppUI(),
     );
   }
